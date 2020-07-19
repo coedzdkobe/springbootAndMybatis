@@ -1,0 +1,9 @@
+server:
+  id: 0102
+  port: 8085
+  context-path: /
+  tomcat:
+    accept-count: 800 # Maximum queue length for incoming connection requests when all possible request processing threads are in use.
+    max-connections: 10000 # Maximum number of connections that the server will accept and process at any given time.
+    max-threads: 200 # Maximum amount of worker threads.
+    min-spare-threads: 200  # Minimum amount of worker threads.
