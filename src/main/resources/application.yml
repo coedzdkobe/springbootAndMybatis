@@ -7,3 +7,7 @@ server:
     max-connections: 10000 # Maximum number of connections that the server will accept and process at any given time.
     max-threads: 200 # Maximum amount of worker threads.
     min-spare-threads: 200  # Minimum amount of worker threads.
+jwt: 
+   secret: secret
+   expiration: 7200000
+   token: Authorization
