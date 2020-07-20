@@ -10,7 +10,9 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath />  <!-- lookup parent from repository -->
 	</parent>
-	
+
+	<packaging>jar</packaging>
+
 	<dependencies>
 	
 		<dependency>
